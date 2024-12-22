@@ -18,7 +18,6 @@ int* minimun_address( int data[], unsigned int size)
 	{
 		if (*min_address > *aux)
 			min_address = aux;
-		std::cout << *min_address << " ";
 		aux++;
 	}
 	return min_address;
