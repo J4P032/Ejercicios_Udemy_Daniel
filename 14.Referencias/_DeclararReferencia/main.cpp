@@ -6,7 +6,7 @@ La variable referencia se llamará ref_value1.
 No se puede modificar el nombre de la funcion que dan */
 
 void refs(){
-	int value{33};
+	int value1{33};
 	int& ref_value1 = value1;
 	std::cout << value1 << ref_value1;
 }
