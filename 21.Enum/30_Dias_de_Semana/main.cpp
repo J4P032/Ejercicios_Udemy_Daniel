@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 	int			valor = atoi (argv[1]); //no puedo hacer case "Lunes" o un c-string. Tiene que ser enumerado.
 	switch(valor){
 		case 1 : 
-			mi_dia = DayOfWeek::Monday;
+			mi_dia = static_cast<DayOfWeek>(0); //tambien funciona así (no mi_dia = 0;). recordar que 0 es el incial si no se especifica.
 		break;
 		
 		case 2 :
